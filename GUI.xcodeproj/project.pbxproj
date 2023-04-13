@@ -8,18 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		77BC21DF29E4AB4000DBF137 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BC21DE29E4AB4000DBF137 /* AppDelegate.swift */; };
-		77BC21E129E4AB4000DBF137 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BC21E029E4AB4000DBF137 /* ViewController.swift */; };
 		77BC21E329E4AB4100DBF137 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77BC21E229E4AB4100DBF137 /* Assets.xcassets */; };
-		77BC21E629E4AB4100DBF137 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77BC21E429E4AB4100DBF137 /* Main.storyboard */; };
+		77BC21F029E4BDEA00DBF137 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BC21EF29E4BDEA00DBF137 /* TitleView.swift */; };
+		77BC21F229E4BE0C00DBF137 /* TitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77BC21F129E4BE0C00DBF137 /* TitleView.xib */; };
+		77BC21F829E6282B00DBF137 /* InfoWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BC21F729E6282B00DBF137 /* InfoWindow.swift */; };
+		77BC21FA29E6285B00DBF137 /* InfoWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77BC21F929E6285B00DBF137 /* InfoWindow.xib */; };
+		77BC21FC29E62A3000DBF137 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BC21FB29E62A3000DBF137 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		77BC21DB29E4AB4000DBF137 /* GUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77BC21DE29E4AB4000DBF137 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		77BC21E029E4AB4000DBF137 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		77BC21E229E4AB4100DBF137 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		77BC21E529E4AB4100DBF137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		77BC21E729E4AB4100DBF137 /* GUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GUI.entitlements; sourceTree = "<group>"; };
+		77BC21EF29E4BDEA00DBF137 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		77BC21F129E4BE0C00DBF137 /* TitleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitleView.xib; sourceTree = "<group>"; };
+		77BC21F729E6282B00DBF137 /* InfoWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoWindow.swift; sourceTree = "<group>"; };
+		77BC21F929E6285B00DBF137 /* InfoWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoWindow.xib; sourceTree = "<group>"; };
+		77BC21FB29E62A3000DBF137 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				77BC21DE29E4AB4000DBF137 /* AppDelegate.swift */,
-				77BC21E029E4AB4000DBF137 /* ViewController.swift */,
+				77BC21EF29E4BDEA00DBF137 /* TitleView.swift */,
+				77BC21F129E4BE0C00DBF137 /* TitleView.xib */,
 				77BC21E229E4AB4100DBF137 /* Assets.xcassets */,
-				77BC21E429E4AB4100DBF137 /* Main.storyboard */,
 				77BC21E729E4AB4100DBF137 /* GUI.entitlements */,
+				77BC21F729E6282B00DBF137 /* InfoWindow.swift */,
+				77BC21F929E6285B00DBF137 /* InfoWindow.xib */,
+				77BC21FB29E62A3000DBF137 /* main.swift */,
 			);
 			path = GUI;
 			sourceTree = "<group>";
@@ -120,7 +129,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				77BC21E329E4AB4100DBF137 /* Assets.xcassets in Resources */,
-				77BC21E629E4AB4100DBF137 /* Main.storyboard in Resources */,
+				77BC21F229E4BE0C00DBF137 /* TitleView.xib in Resources */,
+				77BC21FA29E6285B00DBF137 /* InfoWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,23 +141,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77BC21E129E4AB4000DBF137 /* ViewController.swift in Sources */,
 				77BC21DF29E4AB4000DBF137 /* AppDelegate.swift in Sources */,
+				77BC21FC29E62A3000DBF137 /* main.swift in Sources */,
+				77BC21F029E4BDEA00DBF137 /* TitleView.swift in Sources */,
+				77BC21F829E6282B00DBF137 /* InfoWindow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		77BC21E429E4AB4100DBF137 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				77BC21E529E4AB4100DBF137 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		77BC21E829E4AB4100DBF137 /* Debug */ = {
@@ -275,13 +276,15 @@
 				DEVELOPMENT_TEAM = QRRA4KGJQM;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSMainStoryboardFile = "";
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = st.notexi.GUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,13 +305,15 @@
 				DEVELOPMENT_TEAM = QRRA4KGJQM;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSMainStoryboardFile = "";
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = st.notexi.GUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
